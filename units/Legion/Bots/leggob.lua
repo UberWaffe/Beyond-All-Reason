@@ -1,7 +1,7 @@
 return {
 	leggob = {
-		maxacc = 0.36,
-		maxdec = 0.72,
+		maxacc = 0.36, --0.36
+		maxdec = 0.72, --0.72
 		energycost = 500,
 		metalcost = 25,
 		buildpic = "LEGGOB.DDS",
@@ -19,7 +19,7 @@ return {
 		idletime = 1800,
 		health = 200,
 		maxslope = 17,
-		speed = 72.0,
+		speed = 86.4, --72.0
 		maxwaterdepth = 25,
 		movementclass = "BOT3",
 		nochasecategory = "VTOL",
@@ -27,11 +27,11 @@ return {
 		script = "Units/LEGGOB.cob",
 		seismicsignature = 0,
 		selfdestructas = "smallExplosionGenericSelfd",
-		sightdistance = 425,
+		sightdistance = 480, --425
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.848,
-		turnrate = 1391.5,
+		turnrate = 1671.5, --1391.5
 		upright = true,
 		customparams = {
 			unitgroup = 'weapon',
@@ -121,7 +121,7 @@ return {
 				ownerExpAccWeight = 4.0,
 				predictboost = 0.5,
 				proximitypriority = 3,
-				range = 280,
+				range = 336, --280
 				reloadtime = 1.1,
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",

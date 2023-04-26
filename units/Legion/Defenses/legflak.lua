@@ -1,11 +1,11 @@
 return {
 	legflak = {
 		maxacc = 0,
-		airsightdistance = 1000,
+		airsightdistance = 3000, --2000
 		maxdec = 0,
 		buildangle = 8192,
-		energycost = 13000,
-		metalcost = 820,
+		energycost = 39000, --13000
+		metalcost = 2460, --820
 		buildpic = "LEGFLAK.DDS",
 		buildtime = 19000,
 		canrepeat = false,
@@ -17,17 +17,18 @@ return {
 		explodeas = "mediumBuildingexplosiongeneric",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 1750,
-		maxslope = 10,
+		autoheal = 50, -- n/a
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 7000, --1750
+		maxslope = 30, --10
 		maxwaterdepth = 0,
 		nochasecategory = "ALL",
 		objectname = "Units/LEGFLAK.s3o",
 		script = "Units/LEGFLAK.cob",
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
-		sightdistance = 525,
+		sightdistance = 1050, --525
 		yardmap = "oooo",
 		customparams = {
 			usebuildinggrounddecal = true,
@@ -108,8 +109,8 @@ return {
 		},
 		weapondefs = {
 			legflak_gun = {
-				accuracy = 100,
-				areaofeffect = 42,
+				accuracy = 1000, --100
+				areaofeffect = 168, --42
 				avoidfeature = false,
 				avoidfriendly = false,
 				burst = 3,
@@ -131,7 +132,7 @@ return {
 				name = "Heavy Anti-Air Gatling Gun",
 				noselfdamage = true,
 				predictboost = 1,
-				range = 850,
+				range = 2550, --850
 				reloadtime = 0.166,
 				smoketrail = false,
 				soundhit = "bimpact3",
@@ -144,16 +145,18 @@ return {
 				turret = true,
 				weapontimer = 1,
 				weapontype = "LaserCannon",
-				weaponvelocity = 3642,
+				weaponvelocity = 10926, --3642
 				damage = {
-					default = 40,
-					vtol = 60,
+					default = 120, --40
+					vtol = 180, --60
 				},
 				rgbcolor = "1 0.33 0.7",
 				explosiongenerator = "custom:plasmahit-sparkonly",
 				fallOffRate = 0.2,
 				ownerExpAccWeight = 1.35,--does this affect sprayangle too?
-				sprayangle = 600,
+				tracks = true, --N/A
+				turnrate = 136000, --N/A
+				--sprayangle = 0, --600
 				thickness = 0.91,
 				tolerance = 6000,
 			},

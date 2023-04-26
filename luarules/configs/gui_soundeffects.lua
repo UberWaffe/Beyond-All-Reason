@@ -2409,8 +2409,26 @@ GUIUnitSoundEffects = {
 		--BaseSoundMovementType = "",
 		BaseSoundWeaponType = "fastemg-medium",
 	},
+	
+	legsy = {
+		BaseSoundSelectType   = "arm-bld-factory",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType   = "arm-bld-factory-water",
+	},
 
 	-- LEGION T2 BUILDINGS
+
+	legafus = {
+		BaseSoundSelectType = "arm-bld-select-large",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-nrg-fusion-adv",
+	},
+
+	legfus = {
+		BaseSoundSelectType = "arm-bld-select-large",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-nrg-fusion",
+	},
 
 	legstarfall = {
 		BaseSoundSelectType = "lrpc",
@@ -2439,6 +2457,11 @@ GUIUnitSoundEffects = {
 		--BaseSoundMovementType = "",
 		BaseSoundWeaponType = "aarocket-medium-flak",
 	},
+	leggate = {
+		BaseSoundSelectType = "arm-bld-defense-action-t2",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-shield",
+	},
 
 	-- LEGION FACTORIES
 	leglab = {
@@ -2450,6 +2473,11 @@ GUIUnitSoundEffects = {
 		BaseSoundSelectType = "arm-bld-factory-t2",
 		--BaseSoundMovementType = "",
 		BaseSoundWeaponType = "arm-bld-lab-t2",
+	},
+	legasy = {
+		BaseSoundSelectType   = "arm-bld-factory-t2",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType   = "arm-bld-factory-water-t2",
 	},
 	legamsub = {
 		BaseSoundSelectType   = "arm-bld-factory-t2",
@@ -2482,6 +2510,32 @@ GUIUnitSoundEffects = {
 		BaseSoundWeaponType = "arm-bld-gant-t3-sel",
 	},
 
+	legfmd = {
+		BaseSoundSelectType = "arm-bld-defense-action-t2",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "nuke-anti",
+	},
+
+	legadvos = {
+		BaseSoundSelectType = "arm-bld-nrghum",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-storage-nrg",
+	},
+	legmakr = {
+		BaseSoundSelectType = "arm-bld-metal",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-metalmaker",
+        BaseSoundActivate = "arm-bld-mm-activate",
+        BaseSoundDeactivate = "arm-bld-mm-deactivate",
+	},
+	legmmkr = {
+		BaseSoundSelectType = "arm-bld-metal",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-metalmaker-t2",
+        BaseSoundActivate   = "arm-bld-mm-activate",
+        BaseSoundDeactivate = "arm-bld-mm-deactivate",
+	},
+
 
 	legsolar = {
 		BaseSoundSelectType = "arm-bld-nrghum",
@@ -2494,6 +2548,11 @@ GUIUnitSoundEffects = {
 		BaseSoundSelectType = "arm-bld-nrghum",
 		--BaseSoundMovementType = "",
 		BaseSoundWeaponType = "arm-bld-solar-alt-adv",
+	},
+	legfus = {
+		BaseSoundSelectType = "arm-bld-select-large",
+		--BaseSoundMovementType = "",
+		BaseSoundWeaponType = "arm-bld-nrg-fusion",
 	},
 
 	-- LEGION T1 BOTS
@@ -2538,6 +2597,11 @@ GUIUnitSoundEffects = {
 		BaseSoundSelectType = "cor-bot-at-sel",
 		BaseSoundMovementType = "cor-bot-at-ok",
 		BaseSoundWeaponType = "heatray",
+	},
+	legmando = {
+		BaseSoundSelectType = "cor-bot-medium-stealth-sel",
+		BaseSoundMovementType = "cor-bot-medium-stealth-ok",
+		BaseSoundWeaponType = "plasma-medium",
 	},
 
 
@@ -2690,6 +2754,10 @@ GUIUnitSoundEffects = {
 		BaseSoundMovementType = "arm-air-medium-ok",
 		BaseSoundWeaponType = "conalt-medium",
 	},
+	legnanotct2 = {
+		BaseSoundSelectType = "arm-bld-select-large",
+		BaseSoundWeaponType = "conalt-small",
+	},
 	legnap = {
 		BaseSoundSelectType = "arm-air-bomber-sel",
 		BaseSoundMovementType = "arm-air-bomber-ok",
@@ -2731,6 +2799,21 @@ GUIUnitSoundEffects = {
 		BaseSoundWeaponType = "air-bomb-large",
 	},
 
+	-- LEGION T1 SHIPS
+	
+	legcs = {
+		BaseSoundSelectType = "cor-shp-medium-sel",
+		BaseSoundMovementType = "cor-shp-medium-ok",
+		BaseSoundWeaponType = "conalt-small",
+	},
+
+	-- LEGION T2 SHIPS
+	
+	legacsub = {
+		BaseSoundSelectType = "cor-sub-medium-sel",
+		BaseSoundMovementType = "cor-sub-medium-ok",
+		BaseSoundWeaponType = "conalt-medium",
+	},
 
 
 	--Various Random Units

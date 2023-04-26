@@ -1,7 +1,7 @@
 return {
 	legstr = {
-		maxacc = 0.253,
-		maxdec = 0.8211,
+		maxacc = 0.303, --0.253
+		maxdec = 0.9811, --0.8211
 		energycost = 5400,
 		metalcost = 360,
 		buildpic = "LEGSTR.DDS",
@@ -15,11 +15,11 @@ return {
 		explodeas = "mediumExplosionGeneric",
 		footprintx = 3,
 		footprintz = 3,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 1780,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 2136, --1780
 		maxslope = 17,
-		speed = 84.0,
+		speed = 100.8, --84.0
 		maxwaterdepth = 32,
 		movementclass = "BOT4",
 		nochasecategory = "VTOL",
@@ -27,11 +27,11 @@ return {
 		script = "Units/LEGSTR.cob",
 		seismicsignature = 0,
 		selfdestructas = "mediumExplosionGenericSelfd",
-		sightdistance = 400,
+		sightdistance = 480, --400
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.98,
-		turnrate = 1214.40002,
+		turnrate = 1454.40002, --1214.40002
 		upright = true,
 		customparams = {
 			unitgroup = 'weapon',
@@ -109,8 +109,8 @@ return {
 				accuracy = 7,
 				areaofeffect = 16,
 				avoidfeature = false,
-				burst = 12,
-				burstrate = 0.033,
+				burst = 14, --12
+				burstrate = 0.022, --0.033
 				burnblow = false,
 				craterareaofeffect = 0,
 				craterboost = 0,
@@ -127,8 +127,8 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 280,
-				reloadtime = 0.4,
+				range = 336, --280
+				reloadtime = 0.32, --0.4
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
 				soundhitwet = "splshbig",
@@ -139,7 +139,7 @@ return {
 				tolerance = 6000,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 933,
+				weaponvelocity = 1000, --933
 				damage = {
 					default = 9,
 					vtol = 3,

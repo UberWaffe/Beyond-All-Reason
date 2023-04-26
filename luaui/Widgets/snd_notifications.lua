@@ -159,6 +159,7 @@ local unitsOfInterestNames = {
 	corseah = 'AirTransportDetected',
 	armtship = 'SeaTransportDetected',
 	cortship = 'SeaTransportDetected',
+	legmando = 'CommandoDetected',
 }
 -- convert unitname -> unitDefID
 local unitsOfInterest = {}

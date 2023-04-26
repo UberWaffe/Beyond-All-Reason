@@ -110,6 +110,7 @@ modConfig["BYAR"]["unitList"] = {
 	legacluster = { weapons = { 1 } }, -- t2 popup arty
 	legbombard = { weapons = { 1 } }, -- t2 pop-up
 	legperdition = { weapons = { 1 } }, -- t2 tacnuke
+	legfmd = { weapons = { 3 } },
 
 	legflak = { weapons = { 2 } }, -- t2 ravager gatling flak
 	leglraa = { weapons = { 2 } }, -- t2 aa railgun

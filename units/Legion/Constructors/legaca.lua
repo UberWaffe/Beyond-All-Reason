@@ -1,52 +1,53 @@
 return {
 	legaca = {
-		maxacc = 0.065,
+		maxacc = 0.13, --0.065
+		autoheal = 5, --0,
 		blocking = false,
-		maxdec = 0.4275,
-		energycost = 11000,
-		metalcost = 360,
-		builddistance = 136,
+		maxdec = 0.855, --0.4275
+		energycost = 44000, --11000
+		metalcost = 720, --360
+		builddistance = 204, --136
 		builder = true,
 		buildpic = "LEGACA.DDS",
-		buildtime = 18000,
+		buildtime = 18000, --18000
 		canfly = true,
 		canmove = true,
 		category = "ALL NOTLAND MOBILE NOTSUB VTOL NOWEAPON NOTSHIP NOTHOVER",
 		collide = true,
 		cruisealtitude = 70,
-		energymake = 10,
-		energystorage = 50,
+		energymake = 50, --10
+		energystorage = 250, --50
 		explodeas = "smallexplosiongeneric-builder",
 		footprintx = 2,
 		footprintz = 2,
 		hoverattack = true,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 205,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 1230, --205
 		maxslope = 10,
-		speed = 181.5,
+		speed = 272.5, --181.5
 		maxwaterdepth = 0,
 		objectname = "Units/CORACA.s3o",
-		radardistance = 50,
+		radardistance = 100, --50
 		script = "Units/CORACA.cob",
 		seismicsignature = 0,
 		selfdestructas = "smallExplosionGenericSelfd-builder",
-		sightdistance = 383.5,
+		sightdistance = 523.5, --383.5
 		terraformspeed = 650,
 		turninplaceanglelimit = 360,
 		turnrate = 240,
-		workertime = 100,
+		workertime = 1000, --100
 		buildoptions = {
-			"corfus",
-			"corafus",
+			"legfus",
+			"legafus", --corafus
 			"corageo",
 			"coruwageo",
 			"corbhmth",
-			"cormoho",
-			"cormexp",
-			"cormmkr",
-			"coruwadves",
-			"coruwadvms",
+			"legmext2", --cormoho
+			"legnanotct2", --cormexp
+			"legmmkr", --cormmkr
+			"legadvos", --coruwadves
+			"legdtl", --coruwadvms
 			"corarad",
 			"corshroud",
 			"legforti",
@@ -54,14 +55,14 @@ return {
 			"corfasp",
 			"cortarg",
 			"corsd",
-			"corgate",
+			"leggate", --corgate
 			"legacluster",
 			"legbombard",
 			"legbastion",
 			"legflak",
 			"leglraa",
 			"legperdition",
-			"corfmd",
+			"legfmd", --corfmd
 			"legsilo",
 			"leglrpc",
 			"legstarfall",
@@ -69,9 +70,11 @@ return {
 			"legaap",
 			"corplat",
 			"leggant",
+			"legmg", --n/a
 		},
 		customparams = {
 			unitgroup = 'buildert2',
+			area_mex_def = "legmext2", --cormoho
 			model_author = "Mr Bob, Flaka",
 			normaltex = "unittextures/cor_normal.dds",
 			subfolder = "coraircraft/t2",

@@ -4,8 +4,8 @@ return {
 		activatewhenbuilt = true,
 		maxdec = 0,
 		buildangle = 33000,
-		energycost = 4200,
-		metalcost = 480,
+		energycost = 0, --4200
+		metalcost = 400, --480
 		buildpic = "LEGADVSOL.DDS",
 		buildtime = 14000,
 		canrepeat = false,
@@ -14,14 +14,14 @@ return {
 		collisionvolumescales = "60 44 60",
 		collisionvolumetype = "CylY",
 		corpse = "DEAD",
-		energystorage = 150,
-		energymake = 100,
+		energystorage = 200, --150
+		energymake = 100, --100
 		explodeas = "mediumBuildingexplosiongeneric",
 		footprintx = 5,
 		footprintz = 5,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 1600, --800
 		maxslope = 10,
 		maxwaterdepth = 0,
 		objectname = "Units/LEGADVSOL.s3o",
@@ -51,7 +51,7 @@ return {
 				footprintx = 5,
 				footprintz = 5,
 				height = 20,
-				metal = 320,
+				metal = 320, --320
 				object = "Units/legadvsol_dead.s3o",
 				reclaimable = true,
 			},
@@ -62,7 +62,7 @@ return {
 				footprintx = 5,
 				footprintz = 5,
 				height = 4,
-				metal = 140,
+				metal = 140, --140
 				object = "Units/cor5X5C.s3o",
 				reclaimable = true,
 				resurrectable = 0,

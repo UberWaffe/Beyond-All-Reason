@@ -2,10 +2,10 @@ return {
 	leglraa = {
 		maxacc = 0,
 		activatewhenbuilt = true,
-		airsightdistance = 2400,
+		airsightdistance = 7200, --2400
 		maxdec = 0,
-		energycost = 36000,
-		metalcost = 1600,
+		energycost = 36000, --36000
+		metalcost = 1600, --1600
 		buildpic = "LEGLRAA.DDS",
 		buildtime = 28000,
 		canrepeat = false,
@@ -17,16 +17,17 @@ return {
 		explodeas = "largeBuildingExplosionGeneric",
 		footprintx = 4,
 		footprintz = 4,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 1670,
-		maxslope = 20,
+		autoheal = 50, -- n/a
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 6680, --1670
+		maxslope = 40, --20
 		maxwaterdepth = 0,
 		objectname = "Units/LEGLRAA.s3o",
 		script = "Units/LEGLRAA.cob",
 		seismicsignature = 0,
 		selfdestructas = "largeBuildingExplosionGenericSelfd",
-		sightdistance = 600,
+		sightdistance = 1200, --600
 		yardmap = "oooooooooooooooo",
 		customparams = {
 			usebuildinggrounddecal = true,
@@ -101,18 +102,18 @@ return {
 		},
 		weapondefs = {
 			cor_advsam = {
-				areaofeffect = 425,
+				areaofeffect = 425, --425
 				avoidfeature = false,
 				avoidfriendly = false,
 				burnblow = true,
 				canattackground = false,
 				cegtag = "missiletrailaa-large",
 				collidefriendly = false,
-				craterareaofeffect = 425,
+				craterareaofeffect = 425, --425
 				craterboost = 0,
 				cratermult = 0,
 				edgeeffectiveness = 0.75,
-				energypershot = 1800,
+				energypershot = 900, --1800
 				explosiongenerator = "custom:genericshellexplosion-huge-aa",
 				firestarter = 90,
 				flighttime = 2.2,
@@ -123,8 +124,8 @@ return {
 				name = "Long-range heavy g2a missile launcher",
 				noselfdamage = true,
 				proximitypriority = -2,
-				range = 2400,
-				reloadtime = 1.8,
+				range = 7200, --2400
+				reloadtime = 1.8, --1.8
 				smoketrail = true,
 				smokePeriod = 3,
 				smoketime = 24,
@@ -138,7 +139,7 @@ return {
 				soundhitvolume = 8,
 				soundstartvolume = 8,
 				sprayangle = 10000,
-				startvelocity = 1400,
+				startvelocity = 2800, --1400
 				stockpile = true,
 				stockpiletime = 14,
 				texture1 = "null",
@@ -146,21 +147,21 @@ return {
 				tolerance = 10000,
 				tracks = true,
 				trajectoryheight = 0.55,
-				turnrate = 99000,
+				turnrate = 297000, --99000
 				turret = true,
-				weaponacceleration = 1000,
+				weaponacceleration = 1000, --1000
 				weapontype = "MissileLauncher",
-				weaponvelocity = 1850,
+				weaponvelocity = 5650, --1850
 				damage = {
 					default = 1,
-					vtol = 750,
-					space = 750,
+					vtol = 2250, --750
+					space = 2250, --750
 				},
 			},
 			railgunt2 = {
 				--accuracy = 3000,
 				predictboost = 1,
-				areaofeffect = 100,
+				areaofeffect = 200, --100
 				avoidfeature = false,
 				burnblow = false,
 				cegtag = "railgun",
@@ -171,7 +172,7 @@ return {
 				cratermult = 0,
 				duration = 0.12,
 				edgeeffectiveness = 0.85,
-				energypershot = 1800,
+				energypershot = 900, --1800
 				explosiongenerator = "custom:plasmahit-sparkonly",
 				fallOffRate = 0.2,
 				firestarter = 0,
@@ -182,8 +183,8 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 2000,
-				reloadtime = 5,
+				range = 6000, --2000
+				reloadtime = 5, --5
 				--rgbcolor = "0.74 0.64 0.94",
 				rgbcolor = "1 0.33 0.7",
 				--soundhit = "mavgun3"
@@ -195,12 +196,12 @@ return {
 				tolerance = 6000,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 3529,
+				weaponvelocity = 10569, --3529
 				damage = {
 					--commanders = 750,
 					default = 1,
-					vtol = 700,
-					space = 700,
+					vtol = 2100, --700
+					space = 2100, --700
 				},
 			},
 		},

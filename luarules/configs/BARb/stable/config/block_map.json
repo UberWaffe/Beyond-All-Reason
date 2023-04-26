@@ -175,7 +175,7 @@
 		"store": ["armmstor", "armestor", "cormstor", "corestor"],
 		"mex": ["armmex", "cormex", "armuwmex", "coruwmex"],
 		"mex2": ["armmoho", "cormoho", "armuwmme", "coruwmme"],
-		"converter": ["armmakr", "cormakr", "armmmkr", "cormmkr", "armfmkr", "corfmkr", "armuwmmm", "coruwmmm"],
+		"converter": ["armmakr", "cormakr", "armmmkr", "cormmkr", "legmmkr", "armfmkr", "corfmkr", "armuwmmm", "coruwmmm"],
 		"def_low": ["armllt", "armclaw", "corllt", "cormaw"],
 		"caretaker": ["armnanotc", "armnanotcplat", "armasp", "cornanotc", "cornanotcplat", "corasp"],
 		"small": ["armrad", "corrad", "armfrad", "corfrad"],

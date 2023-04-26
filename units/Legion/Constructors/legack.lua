@@ -2,28 +2,28 @@ return {
 	legack = {
 		maxacc = 0.4692,
 		maxdec = 2.9325,
-		energycost = 6900,
-		metalcost = 470,
-		builddistance = 136,
+		energycost = 13800, --6900
+		metalcost = 470, --470
+		builddistance = 204, --136
 		builder = true,
 		buildpic = "LEGACK.DDS",
-		buildtime = 9700,
+		buildtime = 9700, --9700
 		canmove = true,
 		category = "BOT MOBILE ALL NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -1 0",
 		collisionvolumescales = "22 33 25",
 		collisionvolumetype = "Box",
 		corpse = "DEAD",
-		energymake = 14,
-		energystorage = 100,
+		energymake = 52, --14
+		energystorage = 300, --100
 		explodeas = "mediumexplosiongeneric-builder",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 1000,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 2000, --1000
 		maxslope = 20,
-		speed = 33.0,
+		speed = 40.0, --33.0
 		maxwaterdepth = 25,
 		movementclass = "BOT3",
 		objectname = "Units/legack.s3o",
@@ -31,48 +31,49 @@ return {
 		script = "Units/LEGACK.cob",
 		seismicsignature = 0,
 		selfdestructas = "smallExplosionGenericSelfd-builder",
-		sightdistance = 318.5,
+		sightdistance = 318.5, --318.5
 		terraformspeed = 900,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 0.726,
 		turnrate = 1075.25,
 		upright = false,
-		workertime = 180,
+		workertime = 270, --180
 		buildoptions = {
-			"corfus",
-			"corafus",
+			"legfus",
+			"legafus", --corafus
 			"leggant",
 			"corageo",
 			"corbhmth",
-			"cormoho",
-			"cormexp",
-			"cormmkr",
-			"coruwadves",
-			"coruwadvms",
+			"legmext2", --cormoho
+			"legnanotct2", --cormexp
+			"legmmkr", --cormmkr
+			"legadvos", --coruwadves
+			"legdtl", --coruwadvms
 			"corarad",
 			"corshroud",
 			"legforti",
 			"corasp",
 			"cortarg",
 			"corsd",
-			"corgate",
+			"leggate", --corgate
 			"legacluster",
 			"legbombard",
 			"legbastion",
 			"legflak",
 			"leglraa",
 			"legperdition",
-			"corfmd",
+			"legfmd", --corfmd
 			"legsilo",
 			"leglrpc",
 			"legstarfall",
 			"leglab",
 			"legalab",
+			"legmg", --n/a
 		},
 		customparams = {
 			unitgroup = 'buildert2',
-			area_mex_def = "cormoho",
+			area_mex_def = "legmext2", --cormoho
 			model_author = "Tharsis",
 			normaltex = "unittextures/leg_normal.dds",
 			subfolder = "corbots/t2",

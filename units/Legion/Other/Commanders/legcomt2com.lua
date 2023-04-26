@@ -2,7 +2,7 @@ return {
 	legcomt2com = {
 		maxacc = 0.12,
 		activatewhenbuilt = true,
-		autoheal = 15,
+		autoheal = 60, --15,
 		maxdec = 0.6,
 		energycost = 26000,
 		metalcost = 2700,

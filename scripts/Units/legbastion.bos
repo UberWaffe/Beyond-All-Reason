@@ -18,8 +18,8 @@ static-var  restore_delay, Static_Var_3, dakka, shotcount, timer, lastfired, gam
 // Jerk is the minimum velocity of the turret
 // A high precision requirement can result in overshoots if desired 
 // (c) CC BY NC ND Beherith mysterme@gmail.com
-#define MAX_AIMY1_VELOCITY <3.00>
-#define AIMY1_maxacc<0.16>
+#define MAX_AIMY1_VELOCITY <15.00>
+#define AIMY1_maxacc<0.80>
 #define AIMY1_JERK <0.5>
 #define AIMY1_PRECISION <1.2>
 #define AIMY1_RESTORE_SPEED <1.0>
@@ -249,8 +249,8 @@ AimPrimary(heading, pitch) {
 	//get PRINT(1, heading, pitch);
 	signal SIG_AIM;
 	set-signal-mask SIG_AIM;
-	turn sauronarms to x-axis <0.000000> - pitch speed <85>;
-	turn sauron to y-axis heading speed <35>;
+	turn sauronarms to x-axis <0.000000> - pitch speed <255>;
+	turn sauron to y-axis heading speed <105>;
 	
 	wait-for-turn sauron around y-axis;
 	wait-for-turn sauronarms around x-axis;

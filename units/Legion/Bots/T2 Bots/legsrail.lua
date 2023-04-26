@@ -1,7 +1,7 @@
 return {
 	legsrail = {
-		maxacc = 0.08,
-		maxdec = 0.345,
+		maxacc = 0.096, --0.08
+		maxdec = 0.423, --0.345
 		energycost = 18000,
 		metalcost = 900,
 		buildpic = "LEGSRAIL.DDS",
@@ -15,11 +15,11 @@ return {
 		explodeas = "largeexplosiongeneric",
 		footprintx = 3,
 		footprintz = 3,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 2200,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 2640, --2200
 		maxslope = 17,
-		speed = 42.0,
+		speed = 50.4, --42.0
 		maxwaterdepth = 0,
 		movementclass = "TBOT3",
 		mygravity = 10000,
@@ -28,11 +28,11 @@ return {
 		script = "Units/LEGSRAIL.cob",
 		seismicsignature = 0,
 		selfdestructas = "largeExplosionGenericSelfd",
-		sightdistance = 700,
+		sightdistance = 910, --700
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1,
-		turnrate = 800,
+		turnrate = 960, --800
 		usepiececollisionvolumes = 1,
 		customparams = {
 			unitgroup = 'weapon',
@@ -125,8 +125,8 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 850,
-				reloadtime = 6,
+				range = 1020, --850
+				reloadtime = 4.8, --6
 				rgbcolor = "0.74 0.64 0.94",
 				soundhit = "mavgun3",
 				soundhitwet = "splshbig",

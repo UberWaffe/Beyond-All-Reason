@@ -4,39 +4,41 @@ return {
 		activatewhenbuilt = true,
 		maxdec = 0,
 		buildangle = 4096,
-		energycost = 58000,
-		metalcost = 4200,
+		energycost = 1200000, --58000
+		metalcost = 24000, --4200
 		buildpic = "legbastion.DDS",
-		buildtime = 79000,
+		buildtime = 79000, --79000
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0.0 0.0 0.0",
 		collisionvolumescales = "60 150 60",
 		collisionvolumetype = "box",
 		corpse = "DEAD",
-		damagemodifier = 0.25,
-		energystorage = 1000,
+		damagemodifier = 0.1, --0.25
+		energymake = 250, --n/a
+		energystorage = 10000, --1000
 		explodeas = "largeBuildingexplosiongeneric",
 		footprintx = 5,
 		footprintz = 5,
-		idleautoheal = 2,
-		idletime = 1800,
-		losemitheight = 80,
-		health = 12000,
-		maxslope = 10,
+		autoheal = 500, -- n/a
+		idleautoheal = 2000, --2
+		idletime = 900, --1800
+		losemitheight = 120, --80
+		health = 150000, --15000
+		maxslope = 50, --10
 		maxwaterdepth = 0,
 		nochasecategory = "VTOL",
 		objectname = "Units/legbastion.s3o",
 		onoffable = true,
-		radardistance = 1200,
-		radaremitheight = 80,
+		radardistance = 4200, --1200
+		radaremitheight = 120, --80
 		script = "Units/legbastion.cob",
 		seismicsignature = 0,
 		selfdestructas = "largeBuildingExplosionGenericSelfd",
-		sightdistance = 780,
+		sightdistance = 2800, --780
 		yardmap = "yoo0y o0ooo o0ooo yo0oy",
 		customparams = {
-			maxrange = 1125,
+			maxrange = 2725, --1125
 			usebuildinggrounddecal = true,
 			buildinggrounddecaltype = "decals/corjuno_aoplane.dds",
 			buildinggrounddecalsizey = 5,
@@ -46,6 +48,7 @@ return {
 			model_author = "Hornet",
 			normaltex = "unittextures/cor_normal.dds",
 			removewait = true,
+			paralyzemultiplier = 0.1, --n/a
 			subfolder = "corbuildings/landdefenceoffence",
 			techlevel = 2,
 		},
@@ -110,20 +113,20 @@ return {
 		},
 		weapondefs = {
 			pineappleofdoom = {
-				areaofeffect = 120,
+				areaofeffect = 180, --120
 				avoidfeature = false,
 				avoidfriendly = true,
 				beamtime = 1,
 				camerashake = 0.1,
 				corethickness = 0.4,
-				craterareaofeffect = 120,
+				craterareaofeffect = 0, --120
 				craterboost = 0,
 				cratermult = 0,
 				edgeeffectiveness = 0.45,
-				energypershot = 500,
+				energypershot = 500, --500
 				explosiongenerator = "custom:genericshellexplosion-medium-beam",
 				firestarter = 90,
-				firetolerance = 300,
+				firetolerance = 600, --300
 				impulseboost = 0,
 				impulsefactor = 0,
 				laserflaresize = 6,
@@ -131,8 +134,8 @@ return {
 				noselfdamage = true,
 				predictboost = 0.3,
 				proximitypriority = 1,
-				range = 1100,
-				reloadtime = 3,
+				range = 2700, --1100
+				reloadtime = 1.5, --3.0
 				rgbcolor = "1 0.5 0",
 				rgbcolor2 = "0.9 1.0 0.5",
 				soundhitdry = "",
@@ -146,7 +149,7 @@ return {
 				weapontype = "BeamLaser",
 				weaponvelocity = 1500,
 				damage = {
-					default = 4500,
+					default = 22500, --4500
 				},
 			},
 		},
@@ -154,7 +157,8 @@ return {
 			[1] = {
 				badtargetcategory = "VTOL GROUNDSCOUT",
 				def = "pineappleofdoom",
-				onlytargetcategory = "SURFACE",
+				onlytargetcategory = "NOTSUB",
+				--fastautoretargeting = true,
 			}
 		},
 	},

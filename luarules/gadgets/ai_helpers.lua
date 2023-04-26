@@ -195,6 +195,9 @@ local Interest = {
 	corgant = true,
 	-- cornanotc = true,
 	corgate = true,
+	legfmd = true,
+	legmmkr = true,
+	leggate = true,
 }
 
 GG.AiHelpers.TargetsOfInterest = {}
@@ -208,7 +211,7 @@ local function IsAntiNukeCovered(unitID, attackerTeamID)
 	local unitsNear = Spring.GetUnitsInCylinder(x,z,2000)
 	for ct=1,#unitsNear do
 		local id = unitsNear[ct]
-		if (unitNames[Spring.GetUnitDefID(id)] == "armamd" or unitNames[Spring.GetUnitDefID(id)] == "corfmd") and (not Spring.AreTeamsAllied(Spring.GetUnitTeam(id), attackerTeamID)) then
+		if (unitNames[Spring.GetUnitDefID(id)] == "armamd" or unitNames[Spring.GetUnitDefID(id)] == "corfmd" or unitNames[Spring.GetUnitDefID(id)] == "legfmd") and (not Spring.AreTeamsAllied(Spring.GetUnitTeam(id), attackerTeamID)) then
 			if SeenBuildings[attackerTeamID][unitID] then
 				return true
 			end

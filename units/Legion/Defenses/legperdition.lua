@@ -15,8 +15,8 @@ return {
 		explodeas = "nukeBuilding",
 		footprintx = 4,
 		footprintz = 4,
-		idleautoheal = 5,
-		idletime = 1800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
 		health = 4000,
 		maxslope = 10,
 		maxwaterdepth = 0,
@@ -115,7 +115,7 @@ return {
 		},
 		weapondefs = {
 			napalmmissile = {
-				areaofeffect = 425,
+				areaofeffect = 850, --425
 				avoidfeature = false,
 				avoidfriendly = false,
 				cegtag = "burnflamexl",
@@ -138,10 +138,10 @@ return {
 				flamegfxtime = 1,
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
-				metalpershot = 500,
+				metalpershot = 250, --500
 				model = "legbomb.s3o",
 				name = "Long-Range Tactical Hellfire Napalm Shell",
-				energypershot = 17000,
+				energypershot = 34000, --17000
 				noselfdamage = true,
 				range = 2300,
 				reloadtime = 2,

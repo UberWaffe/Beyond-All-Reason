@@ -347,6 +347,12 @@ local effectDefs = {
 		{ color = { 0.8, 0.7, 0.2 }, width = 5, length = 40, piece = "mthrust", light = 1 },
 		{ color = { 0.8, 0.7, 0.2 }, width = 4, length = 30, piece = "rthrust", light = 1 },
 	},
+	["legcrwt4"] = {
+		{ color = { 0.1, 0.4, 0.6 }, width = 19, length = 50, piece = "thrustrra", emitVector = { 0, 1, 0 }, light = 0.6 },
+		{ color = { 0.1, 0.4, 0.6 }, width = 19, length = 50, piece = "thrustrla", emitVector = { 0, 1, 0 }, light = 0.6 },
+		{ color = { 0.1, 0.4, 0.6 }, width = 17, length = 44, piece = "thrustfra", emitVector = { 0, 1, 0 }, light = 0.6 },
+		{ color = { 0.1, 0.4, 0.6 }, width = 17, length = 44, piece = "thrustfla", emitVector = { 0, 1, 0 }, light = 0.6 },
+	},
 	-- construction
 	["armca"] = {
 		{ color = { 0.7, 0.4, 0.1 }, width = 6, length = 24, piece = "thrust", xzVelocity = 1.2 },

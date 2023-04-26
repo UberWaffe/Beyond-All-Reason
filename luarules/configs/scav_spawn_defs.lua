@@ -1661,6 +1661,7 @@ local highValueTargetsNames = { -- Priority targets for Scav. Must be immobile t
 	-- T2 Metal Makers
 	["armmmkr"] = true,
 	["cormmkr"] = true,
+	["legmmkr"] = true,
 	["armuwmmm"] = true,
 	["coruwmmm"] = true,
 	-- T2 Metal Extractors
@@ -1672,6 +1673,7 @@ local highValueTargetsNames = { -- Priority targets for Scav. Must be immobile t
 	-- Antinukes
 	["armamd"] = true,
 	["corfmd"] = true,
+	["legfmd"] = true,
 }
 -- convert unitname -> unitDefID
 local highValueTargets = {}

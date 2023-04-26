@@ -34,6 +34,7 @@ if gadgetHandler:IsSyncedCode() then
 
 		['armamd'] = 20,
 		['corfmd'] = 20,
+		['legfmd'] = 50,
 		['raptor_turret_antinuke_t2_v1'] = 5,
 		['raptor_turret_antinuke_t3_v1'] = 10,
 

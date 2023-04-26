@@ -1,10 +1,10 @@
 return {
 	legdrone = {
-		maxacc = 0.25,
+		maxacc = 0.75, --0.25
 		blocking = false,
-		maxdec = 0.55,
-		energycost = 500,
-		metalcost = 15,
+		maxdec = 1.65, --0.55
+		energycost = 500, --500
+		metalcost = 15, --15
 		buildpic = "CORBW.DDS",
 		buildtime = 1000,
 		canfly = true,
@@ -17,11 +17,11 @@ return {
 		footprintx = 1,
 		footprintz = 1,
 		hoverattack = true,
-		idleautoheal = 0,
-		idletime = 1800,
-		health = 415,
+		idleautoheal = 5, --0
+		idletime = 900, --1800
+		health = 625, --415
 		maxslope = 10,
-		speed = 280.5,
+		speed = 561.0, --280.5
 		maxwaterdepth = 0,
 		nochasecategory = "COMMANDER VTOL",
 		objectname = "Units/LEGDRONE.s3o",
@@ -29,9 +29,9 @@ return {
 		script = "Units/LEGDRONE.cob",
 		seismicsignature = 0,
 		selfdestructas = "tinyExplosionGenericSelfd",
-		sightdistance = 600,
+		sightdistance = 900, --600
 		turninplaceanglelimit = 360,
-		turnrate = 1100,
+		turnrate = 3300, --1100
 		upright = true,
 		usesmoothmesh = 0,
 		customparams = {
@@ -105,7 +105,7 @@ return {
 				},
 			},
 			semiauto = {
-				accuracy = 7,
+				accuracy = 35, --7
 				areaofeffect = 16,
 				avoidfeature = false,
 				burnblow = false,
@@ -122,8 +122,8 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 300,
-				reloadtime = 0.8,
+				range = 450, --300
+				reloadtime = 0.8, --0.8
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
 				soundhitwet = "splshbig",
@@ -134,10 +134,10 @@ return {
 				tolerance = 6000,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 990,
+				weaponvelocity = 1485, --990
 				damage = {
-					default = 16,
-					vtol = 5,
+					default = 32, --16
+					vtol = 10, --5
 				},
 			},
 		},

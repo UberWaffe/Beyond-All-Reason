@@ -2,6 +2,7 @@ return {
 	cornanotct2 = {
 		maxacc = 0,
 		maxdec = 4.5,
+		autoheal = 0,
 		energycost = 12800,
 		metalcost = 840,
 		builddistance = 500,
@@ -20,6 +21,8 @@ return {
 		collisionvolumeoffsets = "0 0 0",
 		collisionvolumescales = "46 80 46",
 		collisionvolumetype = "CylY",
+		energymake = 0,
+		energystorage = 0,
 		energyupkeep = 30,
 		explodeas = "nanoboom",
 		footprintx = 4,

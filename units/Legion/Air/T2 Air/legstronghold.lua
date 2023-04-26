@@ -1,10 +1,10 @@
 return {
 	legstronghold = {
-		maxacc = 0.12,
+		maxacc = 0.6, --0.12
 		blocking = false,
-		maxdec = 0.6,
-		energycost = 11000,
-		metalcost = 550,
+		maxdec = 1.8, --0.6
+		energycost = 33000, --11000
+		metalcost = 1100, --550
 		buildpic = "legstronghold.DDS",
 		buildtime = 20000,
 		canfly = true,
@@ -19,23 +19,25 @@ return {
 		footprintx = 4,
 		footprintz = 4,
 		hoverattack = true,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 2600,
+		autoheal = 10, --n/a
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 7800, --2600
 		maxslope = 10,
-		speed = 175,
+		speed = 525, --175
 		maxwaterdepth = 0,
 		objectname = "Units/legstronghold.s3o",
 		releaseheld = true,
 		script = "Units/legstronghold.cob",
 		seismicsignature = 0,
 		selfdestructas = "hugeExplosionGenericSelfd",
-		sightdistance = 260,
-		transportcapacity = 8,
-		transportsize = 4,
+		sightdistance = 650, --260
+		stealth = true, --n/a
+		transportcapacity = 8, --8
+		transportsize = 8, --4
 		transportunloadmethod = 0,
 		turninplaceanglelimit = 360,
-		turnrate = 380,
+		turnrate = 1140, --380
 		unloadspread = 0,
 		upright = true,
 		customparams = {
@@ -84,7 +86,7 @@ return {
 		weapondefs = {
 			armmg_weapon = {
 				accuracy = 7,
-				areaofeffect = 16,
+				areaofeffect = 64, --16
 				avoidfeature = false,
 				burst = 6,
 				burstrate = 0.0675,
@@ -94,17 +96,19 @@ return {
 				cratermult = 0,
 				duration = 0.038,
 				edgeeffectiveness = 0.85,
-				explosiongenerator = "custom:plasmahit-sparkonly",
+				explosiongenerator = "custom:laserhit-emp", --"custom:plasmahit-sparkonly"
 				fallOffRate = 0.2,
 				firestarter = 0,
 				impulseboost = 0.4,
 				impulsefactor = 1.5,
 				intensity = 0.8,
-				name = "Rapid-fire a2g machine guns",
+				name = "Rapid-fire a2g EMP burster",
 				noselfdamage = true,
+				paralyzer = true, --n/a
+				paralyzetime = 15, --n/a
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 575,
+				range = 575, --575
 				reloadtime = 0.4,
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
@@ -118,9 +122,10 @@ return {
 				weapontype = "LaserCannon",
 				weaponvelocity = 958,
 				damage = {
-					commanders = 5,
-					default = 12,
-					vtol = 12,
+					default = 5625,
+					--commanders = 5,
+					--default = 12,
+					--vtol = 12,
 				},
 			},
 		},

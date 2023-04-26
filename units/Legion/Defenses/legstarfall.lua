@@ -3,10 +3,10 @@ return {
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 29096,
-		energycost = 660000,
-		metalcost = 58000,
+		energycost = 2840000, --660000
+		metalcost = 116000, --58000
 		buildpic = "legstarfall.DDS",
-		buildtime = 1400000,
+		buildtime = 4200000, --1400000
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 0 0",
@@ -18,16 +18,19 @@ return {
 		firestate = 0,
 		footprintx = 8,
 		footprintz = 8,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 26000,
-		maxslope = 13,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 26000, --26000
+		maxslope = 30, --13
 		maxwaterdepth = 0,
 		objectname = "Units/legstarfall.s3o",
 		script = "Units/legstarfall.cob",
 		seismicsignature = 0,
 		selfdestructas = "advancedFusionExplosionSelfd",
-		sightdistance = 700,
+		radardistance = 22500, --n/a
+		radaremitheight = 2000, --n/a
+		sightemitheight = 400, -- n/a
+		sightdistance = 6100, --700
 		yardmap = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
 		customparams = {
 			usebuildinggrounddecal = true,
@@ -42,6 +45,7 @@ return {
 			subfolder = "corbuildings/landdefenceoffence",
 			techlevel = 2,
 		},
+
 		featuredefs = {
 			dead = {
 				blocking = true,
@@ -125,7 +129,7 @@ return {
 				impulsefactor = 0.5,
 				name = "Starfire Barrage Launcher",
 				noselfdamage = true,
-				range = 6100,
+				range = 18300, --6100
 				reloadtime = 15,
 				rgbcolor = "0.7 0.7 1.0 1.0 1.0 1.0 1.0 1.0",
 				soundhit = "rflrpcexplo",
@@ -133,12 +137,12 @@ return {
 				soundstart = "lrpcshot",
 				soundhitvolume = 36,
 				turret = true,
-				weapontimer = 14,
+				weapontimer = 28, --14
 				weapontype = "Cannon",
-				weaponvelocity = 900,
+				weaponvelocity = 1800, --900
 				damage = {
 					default = 600,
-					shields = 375,
+					shields = 125, --375
 					subs = 200,
 				},
 			},

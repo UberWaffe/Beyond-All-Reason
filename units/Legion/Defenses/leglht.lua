@@ -3,10 +3,10 @@ return {
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 32000,
-		energycost = 550,--700
-		metalcost = 70,--90
+		energycost = 550, --550
+		metalcost = 70, --70
 		buildpic = "LEGLHT.DDS",
-		buildtime = 2450,--2720
+		buildtime = 2450, --2450
 		canrepeat = false,
 		cantbetransported = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
@@ -17,10 +17,10 @@ return {
 		explodeas = "mediumBuildingExplosionGeneric",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 5,
-		idletime = 1800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
 		mass = 5100,
-		health = 550,--650
+		health = 550, --650
 		maxslope = 10,
 		maxwaterdepth = 0,
 		nochasecategory = "MOBILE",
@@ -28,7 +28,7 @@ return {
 		script = "Units/LEGLHT.cob",
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
-		sightdistance = 494,
+		sightdistance = 524, --494
 		yardmap = "oooo",
 		customparams = {
 			usebuildinggrounddecal = true,
@@ -127,8 +127,8 @@ return {
 				name = "HeatRay",
 				noselfdamage = true,
 				predictboost = 1,
-				range = 430,
-				reloadtime = 1.1,
+				range = 490, --430
+				reloadtime = 1.0, --1.1
 				rgbcolor = "1 0.8 0",
 				rgbcolor2 = "0.8 0 0",
 				soundhitdry = "",
