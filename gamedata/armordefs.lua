@@ -367,6 +367,11 @@ local armorDefs = {
 		"coruwadves",
 		"coruwadvms",
 
+		"legfus",
+		"legafus",
+		"legsy",
+		"legasy",
+
 		"corgatreap",
 
 		"armpwt4",
@@ -394,6 +399,11 @@ local armorDefs = {
 		"legsolar",
 		"legsolar",
 		"legadvsol",
+		"legfmd",
+		"legmmkr",
+		"legadvos",
+		"legmakr",
+		"legmando",
 
 		"coruwgeo",
 		"coruwageo",
@@ -529,11 +539,13 @@ local armorDefs = {
 		"legphoenix",
 		"legstronghold",
 		"legwhisper",
+		"legcrwt4",
 		"critter_gull",
 	},
 	shields = {
 		"armgate",
 		"corgate",
+		"leggate",
 		--"armfgate", Not currently used
 		--"corfgate", Not currently used
 	},
@@ -550,6 +562,7 @@ local armorDefs = {
 		"cormls",
 		"armdecade",
 		"corsjam",
+		"legcs",
 	},
 
 	hvyboats = {
@@ -580,6 +593,7 @@ local armorDefs = {
 		"armserp",
 		"armacsub",
         "coracsub",
+        "legacsub",
 		"armrecl",
 		"correcl",
 	},

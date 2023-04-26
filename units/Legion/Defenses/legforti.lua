@@ -1,12 +1,12 @@
 return {
 	legforti = {
 		maxacc = 0,
-		autoheal = 12,
+		autoheal = 72, --12
 		blocking = true,
 		maxdec = 0,
 		buildangle = 0,
-		energycost = 500,
-		metalcost = 40,
+		energycost = 2500, --500
+		metalcost = 80, --40
 		buildpic = "scavengers/SCAVFORT.DDS",
 		buildtime = 1000,
 		canattack = false,
@@ -16,15 +16,15 @@ return {
 		collisionvolumescales = "32 50 32",
 		collisionvolumetype = "CylY",
 		corpse = "ROCKTEETHX",
-		crushresistance = 1000,
+		crushresistance = 10000, --1000
 		explodeas = "WallExplosionConcreteXL",
 		footprintx = 2,
 		footprintz = 2,
 		hidedamage = true,
 		idleautoheal = 0,
 		levelground = false,
-		health = 8900,
-		maxslope = 24,
+		health = 17800, --8900
+		maxslope = 48, --24
 		maxwaterdepth = 0,
 		objectname = "scavs/SCAVFORT.s3o",
 		repairable = false,

@@ -578,6 +578,7 @@ function ArmyHST:Init()
 	self._antinuke_ = {
 		armamd = true ,
 		corfmd = true ,
+		legfmd = true,
 		}
 
 	self._airPlat_ = {

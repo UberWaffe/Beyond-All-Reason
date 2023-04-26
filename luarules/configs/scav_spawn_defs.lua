@@ -898,47 +898,47 @@ end
 scavBehaviours = {
 	SKIRMISH = { -- Run away from target after target gets hit
 		--[UnitDefNames["corcom_scav"].id] = { distance = 100, chance = 0.01 },
-		[UnitDefNames["legcom_scav"].id] = { distance = 100, chance = 0.01 },
+		-- [UnitDefNames["legcom_scav"].id] = { distance = 100, chance = 0.01 },
 		--[UnitDefNames["corcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
-		[UnitDefNames["legcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
 		--[UnitDefNames["corcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
-		[UnitDefNames["legcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
 		--[UnitDefNames["corcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
-		[UnitDefNames["legcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
 		--[UnitDefNames["corcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
-		[UnitDefNames["legcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
 		--[UnitDefNames["corcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
-		[UnitDefNames["legcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
 		--[UnitDefNames["corcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
-		[UnitDefNames["legcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
 		--[UnitDefNames["corcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
-		[UnitDefNames["legcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
 		--[UnitDefNames["corcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
-		[UnitDefNames["legcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
 		--[UnitDefNames["corcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
-		[UnitDefNames["legcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
 	},
 	COWARD = { -- Run away from target after getting hit by enemy
 		[UnitDefNames["corcom_scav"].id] = { distance = 100, chance = 0.01 },
-		[UnitDefNames["legcom_scav"].id] = { distance = 100, chance = 0.01 },
+		-- [UnitDefNames["legcom_scav"].id] = { distance = 100, chance = 0.01 },
 		[UnitDefNames["corcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
-		[UnitDefNames["legcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl2_scav"].id] = { distance = 150, chance = 0.01 },
 		[UnitDefNames["corcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
-		[UnitDefNames["legcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl3_scav"].id] = { distance = 200, chance = 0.01 },
 		[UnitDefNames["corcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
-		[UnitDefNames["legcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl4_scav"].id] = { distance = 250, chance = 0.01 },
 		[UnitDefNames["corcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
-		[UnitDefNames["legcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl5_scav"].id] = { distance = 300, chance = 0.01 },
 		[UnitDefNames["corcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
-		[UnitDefNames["legcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl6_scav"].id] = { distance = 350, chance = 0.01 },
 		[UnitDefNames["corcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
-		[UnitDefNames["legcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl7_scav"].id] = { distance = 400, chance = 0.01 },
 		[UnitDefNames["corcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
-		[UnitDefNames["legcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl8_scav"].id] = { distance = 450, chance = 0.01 },
 		[UnitDefNames["corcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
-		[UnitDefNames["legcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl9_scav"].id] = { distance = 500, chance = 0.01 },
 		[UnitDefNames["corcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
-		[UnitDefNames["legcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
+		-- [UnitDefNames["legcomlvl10_scav"].id] = { distance = 550, chance = 0.01 },
 	},
 	BERSERK = { -- Run towards target after getting hit by enemy or after hitting the target
 		[UnitDefNames["armcom_scav"].id] = { distance = 100, chance = 0.01 },
@@ -1211,43 +1211,43 @@ addNewSquad({ type = "airLand", minAnger = 65, units = { "1 armblade_scav","15 a
 -- evocoms
 addNewSquad({ type = "specialLand", minAnger = 0, units = { "2 armcom_scav",}, weight = 1, maxAnger = 20})
 addNewSquad({ type = "specialLand", minAnger = 0, units = { "2 corcom_scav",}, weight = 1, maxAnger = 20})
-addNewSquad({ type = "specialLand", minAnger = 0, units = { "2 legcom_scav",}, weight = 1, maxAnger = 20})
+-- addNewSquad({ type = "specialLand", minAnger = 0, units = { "2 legcom_scav",}, weight = 1, maxAnger = 20})
 
 addNewSquad({ type = "specialLand", minAnger = 10, units = { "2 armcomlvl2_scav",}, weight = 1, maxAnger = 30})
 addNewSquad({ type = "specialLand", minAnger = 10, units = { "2 corcomlvl2_scav",}, weight = 1, maxAnger = 30})
-addNewSquad({ type = "specialLand", minAnger = 10, units = { "2 legcomlvl2_scav",}, weight = 1, maxAnger = 30})
+-- addNewSquad({ type = "specialLand", minAnger = 10, units = { "2 legcomlvl2_scav",}, weight = 1, maxAnger = 30})
 
 addNewSquad({ type = "specialLand", minAnger = 20, units = { "2 armcomlvl3_scav",}, weight = 1, maxAnger = 40})
 addNewSquad({ type = "specialLand", minAnger = 20, units = { "2 corcomlvl3_scav",}, weight = 1, maxAnger = 40})
-addNewSquad({ type = "specialLand", minAnger = 20, units = { "2 legcomlvl3_scav",}, weight = 1, maxAnger = 40})
+-- addNewSquad({ type = "specialLand", minAnger = 20, units = { "2 legcomlvl3_scav",}, weight = 1, maxAnger = 40})
 
 addNewSquad({ type = "specialLand", minAnger = 30, units = { "2 armcomlvl4_scav",}, weight = 1, maxAnger = 50})
 addNewSquad({ type = "specialLand", minAnger = 30, units = { "2 corcomlvl4_scav",}, weight = 1, maxAnger = 50})
-addNewSquad({ type = "specialLand", minAnger = 30, units = { "2 legcomlvl4_scav",}, weight = 1, maxAnger = 50})
+-- addNewSquad({ type = "specialLand", minAnger = 30, units = { "2 legcomlvl4_scav",}, weight = 1, maxAnger = 50})
 
 addNewSquad({ type = "specialLand", minAnger = 40, units = { "2 armcomlvl5_scav",}, weight = 1, maxAnger = 60})
 addNewSquad({ type = "specialLand", minAnger = 40, units = { "2 corcomlvl5_scav",}, weight = 1, maxAnger = 60})
-addNewSquad({ type = "specialLand", minAnger = 40, units = { "2 legcomlvl5_scav",}, weight = 1, maxAnger = 60})
+-- addNewSquad({ type = "specialLand", minAnger = 40, units = { "2 legcomlvl5_scav",}, weight = 1, maxAnger = 60})
 
 addNewSquad({ type = "specialLand", minAnger = 50, units = { "2 armcomlvl6_scav",}, weight = 1, maxAnger = 70})
 addNewSquad({ type = "specialLand", minAnger = 50, units = { "2 corcomlvl6_scav",}, weight = 1, maxAnger = 70})
-addNewSquad({ type = "specialLand", minAnger = 50, units = { "2 legcomlvl6_scav",}, weight = 1, maxAnger = 70})
+-- addNewSquad({ type = "specialLand", minAnger = 50, units = { "2 legcomlvl6_scav",}, weight = 1, maxAnger = 70})
 
 addNewSquad({ type = "specialLand", minAnger = 60, units = { "2 armcomlvl7_scav",}, weight = 1, maxAnger = 80})
 addNewSquad({ type = "specialLand", minAnger = 60, units = { "2 corcomlvl7_scav",}, weight = 1, maxAnger = 80})
-addNewSquad({ type = "specialLand", minAnger = 60, units = { "2 legcomlvl7_scav",}, weight = 1, maxAnger = 80})
+-- addNewSquad({ type = "specialLand", minAnger = 60, units = { "2 legcomlvl7_scav",}, weight = 1, maxAnger = 80})
 
 addNewSquad({ type = "specialLand", minAnger = 70, units = { "2 armcomlvl8_scav",}, weight = 1, maxAnger = 90})
 addNewSquad({ type = "specialLand", minAnger = 70, units = { "2 corcomlvl8_scav",}, weight = 1, maxAnger = 90})
-addNewSquad({ type = "specialLand", minAnger = 70, units = { "2 legcomlvl8_scav",}, weight = 1, maxAnger = 90})
+-- addNewSquad({ type = "specialLand", minAnger = 70, units = { "2 legcomlvl8_scav",}, weight = 1, maxAnger = 90})
 
 addNewSquad({ type = "specialLand", minAnger = 80, units = { "2 armcomlvl9_scav",}, weight = 1, maxAnger = 100})
 addNewSquad({ type = "specialLand", minAnger = 80, units = { "2 corcomlvl9_scav",}, weight = 1, maxAnger = 100})
-addNewSquad({ type = "specialLand", minAnger = 80, units = { "2 legcomlvl9_scav",}, weight = 1, maxAnger = 100})
+-- addNewSquad({ type = "specialLand", minAnger = 80, units = { "2 legcomlvl9_scav",}, weight = 1, maxAnger = 100})
 
 addNewSquad({ type = "specialLand", minAnger = 90, units = { "2 armcomlvl10_scav",}, weight = 1, maxAnger = 1000})
 addNewSquad({ type = "specialLand", minAnger = 90, units = { "2 corcomlvl10_scav",}, weight = 1, maxAnger = 1000})
-addNewSquad({ type = "specialLand", minAnger = 90, units = { "2 legcomlvl10_scav",}, weight = 1, maxAnger = 1000})
+-- addNewSquad({ type = "specialLand", minAnger = 90, units = { "2 legcomlvl10_scav",}, weight = 1, maxAnger = 1000})
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Settings -- Adjust these
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1316,6 +1316,7 @@ local highValueTargetsNames = { -- Priority targets for Scav. Must be immobile t
 	-- T2 Metal Makers
 	["armmmkr"] = true,
 	["cormmkr"] = true,
+	["legmmkr"] = true,
 	["armuwmmm"] = true,
 	["coruwmmm"] = true,
 	-- T2 Metal Extractors
@@ -1327,6 +1328,7 @@ local highValueTargetsNames = { -- Priority targets for Scav. Must be immobile t
 	-- Antinukes
 	["armamd"] = true,
 	["corfmd"] = true,
+	["legfmd"] = true,
 }
 -- convert unitname -> unitDefID
 local highValueTargets = {}

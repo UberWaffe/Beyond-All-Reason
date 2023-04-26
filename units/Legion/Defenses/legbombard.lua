@@ -12,12 +12,12 @@ return {
 		collisionvolumescales = "32 18 32",
 		collisionvolumetype = "Box",
 		corpse = "DEAD",
-		damagemodifier = 0.5,
+		damagemodifier = 0.1, --0.5
 		explodeas = "smallBuildingExplosionGeneric",
 		footprintx = 3,
 		footprintz = 3,
-		idleautoheal = 5,
-		idletime = 1800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
 		health = 2800,
 		maxslope = 10,
 		maxwaterdepth = 0,

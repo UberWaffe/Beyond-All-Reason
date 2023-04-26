@@ -426,6 +426,8 @@ local unitOrderTable = {
    ['cormakr']        = 100550,
    ['armmmkr']        = 100600,
    ['cormmkr']        = 100650,
+   ['legmakr']        = 100670,
+   ['legmmkr']        = 100675,
 
    --ECO METAL STORAGE
    ['armmstor']       = 100800,
@@ -465,12 +467,14 @@ local unitOrderTable = {
    ['corfus']         = 101600,
    ['armafus']        = 101700,
    ['corafus']        = 101750,
+   ['legafus']        = 101755,
 
    --ECO NRG STORAGE
    ['armestor']       = 101800,
    ['corestor']       = 101850,
    ['armuwadves']     = 101900,
    ['coruwadves']     = 101950,
+   ['legadvos']       = 101975,
 
    --NANOS
    ['armnanotc']      = 102000,
@@ -530,6 +534,7 @@ local unitOrderTable = {
    ['cortarg']        = 103675,
    ['armgate']        = 103700,
    ['corgate']        = 103725,
+   ['leggate']        = 103735,
    ['armdf']          = 103750, --Fake Fusion
 
    --DEFENSES LAND (WALLS)
@@ -627,6 +632,7 @@ local unitOrderTable = {
    ['legperdition']   = 165600,
    ['armamd']         = 166000,
    ['corfmd']         = 166500,
+   ['legfmd']         = 166700,
    ['armsilo']        = 180000,
    ['corsilo']        = 180500,
 

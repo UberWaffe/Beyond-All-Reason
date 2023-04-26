@@ -2,7 +2,7 @@ return {
 	legcomecon = {
 		maxacc = 0.18,
 		activatewhenbuilt = true,
-		autoheal = 5,
+		autoheal = 20, --5,
 		maxdec = 1.125,
 		energycost = 26000,
 		metalcost = 2700,

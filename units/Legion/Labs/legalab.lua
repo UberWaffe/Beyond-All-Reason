@@ -3,8 +3,8 @@ return {
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 1024,
-		energycost = 16000,
-		metalcost = 2900,
+		energycost = 32000, --16000
+		metalcost = 5800, --2900
 		builder = true,
 		buildpic = "LEGALAB.DDS",
 		buildtime = 16800,
@@ -14,16 +14,16 @@ return {
 		collisionvolumescales = "101 51 90",
 		collisionvolumetype = "Box",
 		corpse = "DEAD",
-		energystorage = 200,
+		energystorage = 1000, --200
 		explodeas = "largeBuildingexplosiongeneric",
 		footprintx = 7,
 		footprintz = 6,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 4500,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 13500, --4500
 		maxslope = 15,
 		maxwaterdepth = 0,
-		metalstorage = 200,
+		metalstorage = 1000, --200
 		objectname = "Units/CORALAB.s3o",
 		radardistance = 50,
 		script = "Units/CORALAB.lua",
@@ -31,7 +31,7 @@ return {
 		selfdestructas = "largeBuildingexplosiongenericSelfd",
 		sightdistance = 288.60001,
 		terraformspeed = 1000,
-		workertime = 300,
+		workertime = 600, --300
 		yardmap = "ooooooo ooooooo ooooooo occccco occccco occccco",
 		buildoptions = {
 			[1] = "legack",
@@ -50,7 +50,7 @@ return {
 			[14] = "corvoyr",
 			[15] = "corspy",
 			[16] = "corspec",
-			[17] = "cormando",
+			[17] = "legmando", --cormando
 		},
 		customparams = {
 			usebuildinggrounddecal = true,

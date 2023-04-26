@@ -125,7 +125,7 @@ return {
 				weapontype = "AircraftBomb",
 				customparams = {
 					bogus = 1,
-					spawns_name = "cormine1",
+					spawns_name = "cormine2", --cormine1
 					spawns_surface = "LAND",
 				},
 				damage = {

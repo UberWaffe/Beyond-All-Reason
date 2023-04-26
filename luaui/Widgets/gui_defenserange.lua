@@ -107,6 +107,7 @@ modConfig["BYAR"]["unitList"] = {
 	legstarfall = { weapons = { 1 } }, -- LOLCannon
 	legbombard = { weapons = { 1 } }, -- t2 pop-up
 	legperdition = { weapons = { 1 } }, -- tacnuke
+	legfmd = { weapons = { 3 } },
 	
 	-- SCAVENGERS
 	scavengerdroppodbeacon_scav = { weapons = { 1 } },

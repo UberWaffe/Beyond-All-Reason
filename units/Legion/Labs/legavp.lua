@@ -3,8 +3,8 @@ return {
 		maxacc = 0,
 		maxdec = 0,
 		buildangle = 1024,
-		energycost = 16000,
-		metalcost = 2800,
+		energycost = 32000, --16000
+		metalcost = 5600, --2800
 		builder = true,
 		buildpic = "LEGAVP.DDS",
 		buildtime = 18500,
@@ -14,17 +14,17 @@ return {
 		collisionvolumescales = "124 70 109",
 		collisionvolumetype = "Box",
 		corpse = "DEAD",
-		energystorage = 200,
+		energystorage = 1000, --200
 		explodeas = "largeBuildingexplosiongeneric",
 		footprintx = 9,
 		footprintz = 7,
-		idleautoheal = 5,
-		idletime = 1800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
 		levelground = false,
-		health = 5100,
+		health = 15300, --5100
 		maxslope = 15,
 		maxwaterdepth = 0,
-		metalstorage = 200,
+		metalstorage = 1000, --200
 		objectname = "Units/CORAVP.s3o",
 		radardistance = 50,
 		script = "Units/CORAVP.cob",
@@ -32,7 +32,7 @@ return {
 		selfdestructas = "largeBuildingExplosionGenericSelfd",
 		sightdistance = 286,
 		terraformspeed = 1000,
-		workertime = 300,
+		workertime = 600, --300
 		yardmap = "oooooooooooooooooooocccccoooocccccoooocccccoooocccccoooocccccoo",
 		buildoptions = {
 			"legacv",

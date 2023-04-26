@@ -252,6 +252,9 @@ local function initUnitList()
 		['armantiship'] = { weapons = { 3 } },
 		['corantiship'] = { weapons = { 3 } },
 
+		-- LEGION
+		['legfmd'] = { weapons = { 3 } },
+
 		-- SCAVENGERS
 		['scavengerdroppodbeacon_scav'] = { weapons = { 1 } },
 
