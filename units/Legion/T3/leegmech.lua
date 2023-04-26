@@ -1,14 +1,14 @@
 return {
 	leegmech = {
 		maxacc = 0.11845,
-		airsightdistance = 1100,
+		airsightdistance = 2200, --1100
 		maxdec = 0.7521,
-		energycost = 200000,
-		metalcost = 10000,
+		energycost = 1000000, --200000
+		metalcost = 50000, --10000
 		buildpic = "LEGMECH.DDS",
-		buildtime = 200000,
+		buildtime = 200000, --200000
 		canmove = true,
-		category = "BOT WEAPON ALL NOTSUB NOTAIR NOTHOVER SURFACE CANBEUW EMPABLE",
+		category = "BOT WEAPON ALL NOTSUB NOTAIR NOTHOVER SURFACE CANBEUW",
 		collisionvolumeoffsets = "0 -11 0",
 		collisionvolumescales = "66 86 66",
 		collisionvolumetype = "CylY",
@@ -16,14 +16,15 @@ return {
 		explodeas = "bantha",
 		footprintx = 4,
 		footprintz = 4,
-		idleautoheal = 25,
-		idletime = 900,
+		autoheal = 250, --0,
+		idleautoheal = 2000, --25
+		idletime = 600, --900
 		mass = 200000,
-		health = 60000,
-		maxslope = 17,
+		health = 360000, --60000
+		maxslope = 35, --17
 		speed = 40.5,
-		maxwaterdepth = 12,
-		movementclass = "HBOT4",
+		maxwaterdepth = 512, --12
+		movementclass = "EPICALLTERRAIN", --HBOT4
 		nochasecategory = "VTOL",
 		objectname = "Units/LEGMECH.s3o",
 		pushresistant = true,
@@ -31,7 +32,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "banthaSelfd",
 		selfdestructcountdown = 10,
-		sightdistance = 617,
+		sightdistance = 1234, --617
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.089,
@@ -109,25 +110,25 @@ return {
 		},
 		weapondefs = {
 			aimhull = {
-				areaofeffect = 70,
+				areaofeffect = 105, --70
 				avoidfeature = false,
 				burnblow = true,
-				burst = 16,
-				burstrate = 0.2,
+				burst = 16, --16
+				burstrate = 0.1, --0.2
 				collidefriendly = false,
 				craterboost = 0,
 				cratermult = 0,
 				edgeeffectiveness = 0.65,
 				explosiongenerator = "custom:burnfire-xs",
 				firestarter = 70,
-				flighttime = 4,
+				flighttime = 8, --4
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
 				model = "artshell-large.s3o",
 				name = "Parabolic trajectory g2g multi-rocket launcher",
 				noselfdamage = true,
-				range = 700,
-				reloadtime = 8,
+				range = 2100, --700
+				reloadtime = 8, --8
 				smoketrail = true,
 				smokePeriod = 7,
 				smoketime = 21,
@@ -139,25 +140,25 @@ return {
 				soundhitwet = "splssml",
 				soundstart = "rocksalvo",
 				soundtrigger = true,
-				startvelocity = 160,
+				startvelocity = 480, --160
 				targetmoveerror = 0.2,
 				texture1 = "null",
 				texture2 = "smoketraildark",
 				trajectoryheight = 1.5,
-				turnrate = 4000,
+				turnrate = 12000, --4000
 				turret = true,
-				weaponacceleration = 100,
+				weaponacceleration = 200, --100
 				weapontimer = 6,
 				weapontype = "MissileLauncher",
-				weaponvelocity = 600,
+				weaponvelocity = 1200, --600
 				wobble = 10000,
 				damage = {
-					default = 30,
-					subs = 15,
+					default = 180, --30
+					subs = 90, --15
 				},
 			},
 			shotgun = {
-				areaofeffect = 50,
+				areaofeffect = 75, --50
 				avoidfeature = false,
 				craterboost = 0,
 				cratermult = 0,
@@ -170,33 +171,33 @@ return {
 				noselfdamage = true,
 				predictboost = 1,
 				projectiles = 9,
-				range = 550,
-				reloadtime = 3,
+				range = 1100, --550
+				reloadtime = 2, --3
 				rgbcolor = "1 0.75 0.25",
 				size = 2,
 				soundhit = "xplomed2xs",
 				soundhitwet = "splsmed",
 				soundstart = "kroggie2xs",
 				soundstartvolume = 12,
-				sprayangle = 1500,
+				sprayangle = 500, --1500
 				tolerance = 6000,
 				turret = true,
 				weapontimer = 1,
 				weapontype = "Cannon",
-				weaponvelocity = 600,
+				weaponvelocity = 1200, --600
 				damage = {
-					default = 125,
+					default = 750, --125
 				},
 			},
 			railgunt3 = {
-				areaofeffect = 24,
+				areaofeffect = 36, --24
 				avoidfeature = false,
 				burnblow = false,
 				cegtag = "railgun",
 				craterareaofeffect = 0,
 				craterboost = 0,
 				cratermult = 0,
-				duration = 0.12,
+				duration = 0.24, --0.12
 				edgeeffectiveness = 0.85,
 				energypershot = 1000,
 				explosiongenerator = "custom:plasmahit-sparkonly",
@@ -209,8 +210,8 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 850,
-				reloadtime = 2.25,
+				range = 1700, --850
+				reloadtime = 2.25, --2.25
 				rgbcolor = "0.74 0.64 0.94",
 				soundhit = "mavgun3",
 				soundhitwet = "splshbig",
@@ -220,15 +221,15 @@ return {
 				tolerance = 6000,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 3180,
+				weaponvelocity = 4770, --3180
 				damage = {
-					commanders = 250,
-					default = 500,
+					commanders = 1500, --250
+					default = 3000, --500
 				},
 			},
 			frontgun = {
 				accuracy = 7,
-				areaofeffect = 16,
+				areaofeffect = 24, --16
 				avoidfeature = false,
 				burst = 6,
 				burstrate = 0.0675,
@@ -248,7 +249,7 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 400,
+				range = 800, --400
 				reloadtime = 0.4,
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
@@ -259,19 +260,17 @@ return {
 				thickness = 1.4,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 921,
+				weaponvelocity = 1842, --921
 				damage = {
-					commanders = 33,
-					default = 33,
-					vtol = 33,
+					default = 198, --33
 				},
 			},
 			topgunaa = {
 				accuracy = 7,
-				areaofeffect = 16,
+				areaofeffect = 32, --16
 				avoidfeature = false,
-				burst = 4,
-				burstrate = 0.1,
+				burst = 8, --4
+				burstrate = 0.1, --0.1
 				burnblow = false,
 				craterareaofeffect = 0,
 				craterboost = 0,
@@ -288,7 +287,7 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 651,
+				range = 1302, --651
 				reloadtime = 1,
 				rgbcolor = "1 0.4 0.95",
 				soundhit = "bimpact3",
@@ -299,9 +298,9 @@ return {
 				thickness = 1.1,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 975,
+				weaponvelocity = 2925, --975
 				damage = {
-					default = 75,
+					default = 225, --75
 				},
 			},
 		},

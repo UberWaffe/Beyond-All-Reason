@@ -2,8 +2,8 @@ return {
 	legpede = {
 		maxacc = 0.03,
 		maxdec = 0.1,
-		energycost = 80000,
-		metalcost = 5500,
+		energycost = 80000, --80000
+		metalcost = 5500, --5500
 		buildpic = "LEGPEDE.DDS",
 		buildtime = 110000,
 		canattack = false,
@@ -16,12 +16,14 @@ return {
 		explodeas = "explosiont3med",
 		footprintx = 4,
 		footprintz = 4,
-		idleautoheal = 5,
-		idletime = 600,
+		autoheal = 25, --n/a
+		idleautoheal = 150, --5
+		idletime = 600, --600
 		mass = 200000,
-		health = 28000,
+		health = 28000, --28000
+		maxslope = 50, --n/a
 		speed = 51.0,
-		maxwaterdepth = 12,
+		maxwaterdepth = 120, --12
 		movementclass = "HBOT4",
 		mygravity = 10000,
 		nochasecategory = "VTOL",
@@ -29,7 +31,7 @@ return {
 		script = "Units/LEGPEDE.cob",
 		seismicsignature = 0,
 		selfdestructas = "explosiont3",
-		sightdistance = 600,
+		sightdistance = 1200, --600
 		turninplace = false,
 		turninplaceanglelimit = 0,
 		turninplacespeedlimit = 1.3,
@@ -114,14 +116,14 @@ return {
 				edgeeffectiveness = 0.65,
 				explosiongenerator = "custom:genericshellexplosion-small-bomb",
 				firestarter = 70,
-				flighttime = 3,
+				flighttime = 9, --3
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
 				model = "cormissile2.s3o",
 				name = "Parabolic trajectory g2g multi-rocket launcher",
 				noselfdamage = true,
-				range = 600,
-				reloadtime = 3.75,
+				range = 2400, --600
+				reloadtime = 3.75, --3.75
 				smoketrail = true,
 				smokePeriod = 7,
 				smoketime = 21,
@@ -134,11 +136,12 @@ return {
 				soundstart = "rocksalvo",
 				soundtrigger = true,
 				startvelocity = 80,
-				targetmoveerror = 0.2,
+				--targetmoveerror = 0.2,
 				texture1 = "null",
 				texture2 = "smoketrailbar",
-				trajectoryheight = 1,
-				turnrate = 2000,
+				trajectoryheight = 2, --1
+				tracks = true,
+				turnrate = 8000,
 				turret = true,
 				weaponacceleration = 70,
 				weapontimer = 6,
@@ -172,7 +175,7 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 575,
+				range = 575, --575
 				reloadtime = 0.4,
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
@@ -212,7 +215,7 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 850,
+				range = 1275, --850
 				reloadtime = 4.5,
 				rgbcolor = "0.74 0.64 0.94",
 				soundhit = "mavgun3",
@@ -225,8 +228,8 @@ return {
 				weapontype = "LaserCannon",
 				weaponvelocity = 3180,
 				damage = {
-					commanders = 250,
-					default = 500,
+					commanders = 1000, --250
+					default = 2000, --500
 				},
 			},
 		},

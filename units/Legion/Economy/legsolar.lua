@@ -16,7 +16,7 @@ return {
 		corpse = "DEAD",
 		damagemodifier = 0.5,
 		energystorage = 50,
-		energyupkeep = -20,
+		energyupkeep = -25, -- -20
 		explodeas = "smallBuildingexplosiongeneric",
 		footprintx = 5,
 		footprintz = 5,

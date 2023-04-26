@@ -2,27 +2,27 @@ return {
 	leggant = {
 		maxacc = 0,
 		maxdec = 0,
-		energycost = 62000,
-		metalcost = 8400,
+		energycost = 95000, --62000 x1		+		: legadvos = 33000 x1
+		metalcost = 10920, --8400 x1		+		: legadvos = 2520 x1
 		builder = true,
 		buildpic = "LEGGANT.DDS",
-		buildtime = 67300,
+		buildtime = 87721, --67321			+		: legadvos = 20400 x1
 		canmove = true,
 		category = "ALL NOTLAND NOWEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -5 8",
 		collisionvolumescales = "150 43 150",
 		collisionvolumetype = "CylY",
 		corpse = "DEAD",
-		energystorage = 1400,
+		energystorage = 81400, --1400		+		: legadvos = 80000 x1
 		explodeas = "hugeBuildingexplosiongeneric",
 		footprintx = 9,
 		footprintz = 9,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 17800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 43200, --17800				+		: legadvos = 25400 x1
 		maxslope = 10,
 		maxwaterdepth = 0,
-		metalstorage = 800,
+		metalstorage = 20800, --800			+		: legadvos = 20000 x1
 		objectname = "Units/CORGANT.s3o",
 		radardistance = 50,
 		script = "Units/CORGANT.cob",
@@ -31,7 +31,7 @@ return {
 		sightdistance = 273,
 		terraformspeed = 3000,
 		usepiececollisionvolumes = 1,
-		workertime = 600,
+		workertime = 1800, --600
 		yardmap = "oooooooooooooooooooocccccoooocccccoooocccccoooocccccoooocccccoooocccccoooocccccoo",
 		buildoptions = {
 			[1] = "corkorg",
@@ -43,6 +43,14 @@ return {
 			[7] = "legpede",
 			[8] = "leegmech",
 			[9] = "legkeres",
+			[10] = "legaca", --n/a
+			[11] = "legcrwt4",
+			[12] = "armvadert4",
+			[13] = "corgolt4",
+			[14] = "corkarganetht4",
+			[15] = "corthermite",
+			[16] = "armthundt4",
+			[17] = "corfblackhyt4",
 		},
 		customparams = {
 			usebuildinggrounddecal = true,

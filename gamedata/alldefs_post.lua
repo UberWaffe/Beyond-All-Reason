@@ -225,6 +225,7 @@ function UnitDef_Post(name, uDef)
 				corfmd = true,
 				corsilo = true,
 				cormabm = true,
+				legfmd = true,
 				armamd_scav = true,
 				armsilo_scav = true,
 				armscab_scav = true,

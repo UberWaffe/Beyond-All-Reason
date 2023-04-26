@@ -2,8 +2,8 @@ return {
 	leginfestor = {
 		maxacc = 0.25,
 		maxdec = 0.65,
-		energycost = 5000,
-		metalcost = 300,
+		energycost = 10000, --5000
+		metalcost = 600, --300
 		buildpic = "LEGINFESTOR.DDS",
 		builddistance = 175,
 		buildtime = 4500,
@@ -19,9 +19,9 @@ return {
 		explodeas = "mediumexplosiongeneric",
 		footprintx = 3,
 		footprintz = 3,
-		idleautoheal = 5,
-		idletime = 1800,
-		health = 1500,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
+		health = 6000, --1500
 		maxslope = 50,
 		speed = 54.0,
 		maxwaterdepth = 30,
@@ -32,7 +32,7 @@ return {
 		script = "Units/leginfestor.cob",
 		seismicsignature = 0,
 		selfdestructas = "mediumExplosionGenericSelfd",
-		sightdistance = 400,
+		sightdistance = 800, --400
 		strafetoattack = true,
 		stealth = true,
 		turninplace = true,
@@ -64,7 +64,7 @@ return {
 				footprintx = 3,
 				footprintz = 3,
 				height = 10,
-				metal = 523,
+				metal = 210, --523
 				object = "Units/leginfestor_dead.s3o",
 				reclaimable = true,
 			},
@@ -76,7 +76,7 @@ return {
 				damage = 1500,
 				footprintx = 3,
 				footprintz = 3,
-				metal = 209,
+				metal = 50, --209
 				object = "Units/cor3X3A.s3o",
 				reclaimable = true,
 				resurrectable = 0,
@@ -127,8 +127,8 @@ return {
 				laserflaresize = 3.95,
 				name = "HeatRay",
 				noselfdamage = true,
-				range = 300,
-				reloadtime = 1,
+				range = 700, --300
+				reloadtime = 0.5, --1
 				rgbcolor = "1 0.8 0",
 				rgbcolor2 = "0.8 0 0",
 				soundhitdry = "",
@@ -141,18 +141,18 @@ return {
 				tolerance = 2000,
 				turret = true,
 				weapontype = "BeamLaser",
-				weaponvelocity = 700,
+				weaponvelocity = 1400, --700
 				damage = {
-					default = 120,
-					subs = 5,
-					vtol = 40,
+					default = 120, --120
+					subs = 5, --5
+					vtol = 80, --40
 				},
 			},
 		},
 		weapons = {
 			[1] = {
 				def = "festorbeam",
-				onlytargetcategory = "SURFACE",
+				onlytargetcategory = "NOTSUB",
 			},
 		},
 	},

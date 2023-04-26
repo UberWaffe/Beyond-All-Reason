@@ -47,7 +47,7 @@ return {
 			"corestor",
 			"legmex",
 			"legmext15",
-			"cormakr",
+			"legmakr",
 			"legalab",
 			"leglab",
 			"legvp",
@@ -69,7 +69,7 @@ return {
 			"cordl",
 			"legjam",
 			"corjuno",
-			"corsy",
+			"legsy",
 			"legdefcarryt1",
 		},
 		customparams = {

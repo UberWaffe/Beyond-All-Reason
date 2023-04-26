@@ -1,11 +1,12 @@
 return {
 	legmg = {
 		maxacc = 0,
-		airsightdistance = 650,
+		autoheal = 10, -- n/a
+		airsightdistance = 1175, --650
 		maxdec = 0,
 		buildangle = 32768,
-		energycost = 5500,
-		metalcost = 420,
+		energycost = 16500, --5500
+		metalcost = 840, --420
 		buildpic = "legmg.DDS",
 		buildtime = 8400,
 		canrepeat = false,
@@ -18,17 +19,17 @@ return {
 		explodeas = "mediumBuildingexplosiongeneric",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 5,
-		idletime = 1800,
+		idleautoheal = 25, --5
+		idletime = 900, --1800
 		mass = 7500,
-		health = 2350,
-		maxslope = 10,
+		health = 4700, --2350
+		maxslope = 30, --10
 		maxwaterdepth = 0,
 		objectname = "Units/LEGMG.s3o",
 		script = "Units/LEGMG.cob",
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
-		sightdistance = 525,
+		sightdistance = 1050, --525
 		yardmap = "oooo",
 		customparams = {
 			usebuildinggrounddecal = true,
@@ -111,7 +112,7 @@ return {
 				areaofeffect = 16,
 				avoidfeature = false,
 				burst = 6,
-				burstrate = 0.0675,
+				burstrate = 0.0375, --0.0675
 				burnblow = false,
 				craterareaofeffect = 0,
 				craterboost = 0,
@@ -128,7 +129,7 @@ return {
 				noselfdamage = true,
 				ownerExpAccWeight = 4.0,
 				proximitypriority = 3,
-				range = 575,
+				range = 1150, --575
 				reloadtime = 0.4,
 				rgbcolor = "1 0.95 0.4",
 				soundhit = "bimpact3",
@@ -140,11 +141,11 @@ return {
 				tolerance = 6000,
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 958,
+				weaponvelocity = 1916, --958
 				damage = {
-					commanders = 5,
-					default = 18,
-					vtol = 18,
+					commanders = 10, --5
+					default = 36, --18
+					vtol = 36, --18
 				},
 			},
 		},

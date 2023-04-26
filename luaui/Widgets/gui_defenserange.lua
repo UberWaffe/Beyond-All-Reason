@@ -97,6 +97,7 @@ modConfig["BYAR"]["unitList"] = {
 	legstarfall = { weapons = { 1 } },
 	legbombard = { weapons = { 1 } },
 	legperdition = { weapons = { 1 } },
+	legfmd = { weapons = { 3 } },
 	
 	-- SCAVENGERS
 	scavengerdroppodbeacon_scav = { weapons = { 1 } },

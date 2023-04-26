@@ -1,11 +1,11 @@
 return {
 	legionnaire = {
-		maxacc= 0.35,
-		airsightdistance = 1100,
+		maxacc= 1.2, --0.4
+		airsightdistance = 2200, --1100
 		blocking = false,
-		maxdec = 0.0875,
-		energycost = 6200,
-		metalcost = 180,
+		maxdec = 0.35, --
+		energycost = 12800, --6200
+		metalcost = 360, --180
 		buildpic = "legionnaire.DDS",
 		buildtime = 10000,
 		canfly = true,
@@ -16,10 +16,10 @@ return {
 		explodeas = "smallExplosionGenericAir",
 		footprintx = 2,
 		footprintz = 2,
-		maxacc= 0.4,
 		maxaileron = 0.016,
 		maxbank = 0.72,
-		health = 480,
+		autoheal = 5, --n/a
+		health = 1920, --480
 		maxelevator = 0.013,
 		maxpitch = 0.745,
 		maxrudder = 0.015,
@@ -31,11 +31,11 @@ return {
 		script = "Units/legionnaire.cob",
 		seismicsignature = 0,
 		selfdestructas = "smallExplosionGenericAir",
-		sightdistance = 250,
+		sightdistance = 500, --250
 		speedtofront = 0.06475,
 		stealth = false,
-		turnradius = 32,
-		turnrate = 1500,
+		turnradius = 8, --32
+		turnrate = 4500, --1500
 		usesmoothmesh = true,
 		wingangle = 0.06363,
 		wingdrag = 0.21,
@@ -106,7 +106,7 @@ return {
 				ownerExpAccWeight = 8.0,
 				predictboost = 1,
 				proximitypriority = 3,
-				range = 600,
+				range = 1200, --600
 				reloadtime = 1,
 				rgbcolor = "1 0.4 0.95",
 				soundhit = "bimpact3",
@@ -115,14 +115,14 @@ return {
 				soundstartvolume = 2,
 				sprayangle = 125,
 				thickness = 0.6,
-				tolerance = 2400,
+				tolerance = 4800, --2400
 				turret = true,
 				weapontype = "LaserCannon",
-				weaponvelocity = 2500,
+				weaponvelocity = 7500, --2500
 				damage = {
 					commanders = 1,
 					default = 2,
-					vtol = 80,
+					vtol = 160, --80
 				},
 			},
 
