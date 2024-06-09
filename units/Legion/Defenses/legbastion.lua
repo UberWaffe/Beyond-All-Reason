@@ -30,12 +30,12 @@ return {
 		nochasecategory = "VTOL",
 		objectname = "Units/legbastion.s3o",
 		onoffable = true,
-		radardistance = 3200, --1200
+		radardistance = 4200, --1200
 		radaremitheight = 120, --80
 		script = "Units/legbastion.cob",
 		seismicsignature = 0,
 		selfdestructas = "largeBuildingExplosionGenericSelfd",
-		sightdistance = 1900, --780
+		sightdistance = 2800, --780
 		yardmap = "yoo0y o0ooo o0ooo yo0oy",
 		customparams = {
 			maxrange = 2725, --1125

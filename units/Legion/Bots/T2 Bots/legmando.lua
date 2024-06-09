@@ -15,7 +15,6 @@ return {
 		canreclaim = true,
 		canrepair = true,
 		canrestore = true,
-		canresurrect = true,
 		category = "ALL MOBILE WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE BOT CANBEUW EMPABLE",
 		cancloak = true,
 		initcloaked = true,

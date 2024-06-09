@@ -135,7 +135,7 @@ return {
 			evolution_announcement_size = 18.5,
 			evolution_target = "legcomlvl10",
 			evolution_condition = "timer",
-			evolution_timer = 99999,
+			evolution_timer = 300, --99999,
 			combatradius = 0,
 			inheritxpratemultiplier = 0.5,
 			childreninheritxp = "DRONE BOTCANNON",

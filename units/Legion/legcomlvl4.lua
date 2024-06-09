@@ -98,6 +98,11 @@ return {
 		},
 		customparams = {
 			unitgroup = 'builder',
+			evolution_announcement = "Legion commanders have upgraded to level 5",
+			evolution_announcement_size = 18.5,
+			evolution_target = "legcomlvl5", --N/A
+			evolution_condition = "timer",
+			evolution_timer = 300, --N/A
 			iscommander = true,
 			model_author = "FireStorm",
 			normaltex = "unittextures/Arm_normal.dds",
